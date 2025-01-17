@@ -1,2 +1,2 @@
-main=https://mangapp.tiiny.io
-backup=https://api-api-mangapp.my.id
+main=https://api-api-mangapp.my.id
+backup=https://mangapp.tiiny.io
