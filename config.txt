@@ -1,3 +1,4 @@
 main=http://api-api-mangapp.my.id
 backup=https://mangapp.tiiny.io
 newmain=https://api.mangaloom.app
+apikey=25dfc6788d6b79647ad9719f917eab17ecb28b46403e0f3f1be1d0259b967fa4
