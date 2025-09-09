@@ -1,0 +1,4 @@
+main=http://api-api-mangapp.my.id
+backup=https://mangapp.tiiny.io
+newmain=https://api.mangaloom.app
+

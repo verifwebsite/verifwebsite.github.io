@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Flashcard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Buat Flashcard Anda 🃏</h1>
+
+      <!-- Bagian Soal Preset -->
+      <div class="preset-section">
+        <h2>Soal Preset Hiragana & Katakana</h2>
+        <div class="preset-buttons">
+          <button id="hiraganaBasic" class="btn btn-preset">
+            Hiragana Dasar
+          </button>
+          <button id="hiraganaTenten" class="btn btn-preset">
+            Hiragana Tenten
+          </button>
+          <button id="hiraganaHandakuten" class="btn btn-preset">
+            Hiragana Handakuten
+          </button>
+          <button id="hiraganaYoon" class="btn btn-preset">
+            Hiragana Yoon
+          </button>
+          <button id="katakanaBasic" class="btn btn-preset">
+            Katakana Dasar
+          </button>
+          <button id="katakanaTenten" class="btn btn-preset">
+            Katakana Tenten
+          </button>
+          <button id="katakanaHandakuten" class="btn btn-preset">
+            Katakana Handakuten
+          </button>
+          <button id="katakanaYoon" class="btn btn-preset">
+            Katakana Yoon
+          </button>
+          <button id="addAllHiragana" class="btn btn-add">
+            Semua Hiragana
+          </button>
+          <button id="addAllKatakana" class="btn btn-add">
+            Semua Katakana
+          </button>
+        </div>
+      </div>
+
+      <!-- Bagian Pilih Baris Spesifik -->
+      <div class="row-section">
+        <h3>Pilih Baris Hiragana Dasar</h3>
+        <div class="row-buttons">
+          <button id="hiragana-a" class="btn btn-row">
+            Baris A (あいうえお)
+          </button>
+          <button id="hiragana-ka" class="btn btn-row">
+            Baris KA (かきくけこ)
+          </button>
+          <button id="hiragana-sa" class="btn btn-row">
+            Baris SA (さしすせそ)
+          </button>
+          <button id="hiragana-ta" class="btn btn-row">
+            Baris TA (たちつてと)
+          </button>
+          <button id="hiragana-na" class="btn btn-row">
+            Baris NA (なにぬねの)
+          </button>
+          <button id="hiragana-ha" class="btn btn-row">
+            Baris HA (はひふへほ)
+          </button>
+          <button id="hiragana-ma" class="btn btn-row">
+            Baris MA (まみむめも)
+          </button>
+          <button id="hiragana-ya" class="btn btn-row">
+            Baris YA (やゆよ)
+          </button>
+          <button id="hiragana-ra" class="btn btn-row">
+            Baris RA (らりるれろ)
+          </button>
+          <button id="hiragana-wa" class="btn btn-row">
+            Baris WA (わをん)
+          </button>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <h3>Pilih Baris Katakana Dasar</h3>
+        <div class="row-buttons">
+          <button id="katakana-a" class="btn btn-row">
+            Baris A (アイウエオ)
+          </button>
+          <button id="katakana-ka" class="btn btn-row">
+            Baris KA (カキクケコ)
+          </button>
+          <button id="katakana-sa" class="btn btn-row">
+            Baris SA (サシスセソ)
+          </button>
+          <button id="katakana-ta" class="btn btn-row">
+            Baris TA (タチツテト)
+          </button>
+          <button id="katakana-na" class="btn btn-row">
+            Baris NA (ナニヌネノ)
+          </button>
+          <button id="katakana-ha" class="btn btn-row">
+            Baris HA (ハヒフヘホ)
+          </button>
+          <button id="katakana-ma" class="btn btn-row">
+            Baris MA (マミムメモ)
+          </button>
+          <button id="katakana-ya" class="btn btn-row">
+            Baris YA (ヤユヨ)
+          </button>
+          <button id="katakana-ra" class="btn btn-row">
+            Baris RA (ラリルレロ)
+          </button>
+          <button id="katakana-wa" class="btn btn-row">
+            Baris WA (ワヲン)
+          </button>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <h3>Pilih Baris Tenten & Handakuten</h3>
+        <div class="row-buttons">
+          <button id="hiragana-ga" class="btn btn-row">
+            Hiragana GA (がぎぐげご)
+          </button>
+          <button id="hiragana-za" class="btn btn-row">
+            Hiragana ZA (ざじずぜぞ)
+          </button>
+          <button id="hiragana-da" class="btn btn-row">
+            Hiragana DA (だぢづでど)
+          </button>
+          <button id="hiragana-ba" class="btn btn-row">
+            Hiragana BA (ばびぶべぼ)
+          </button>
+          <button id="hiragana-pa" class="btn btn-row">
+            Hiragana PA (ぱぴぷぺぽ)
+          </button>
+          <button id="katakana-ga" class="btn btn-row">
+            Katakana GA (ガギグゲゴ)
+          </button>
+          <button id="katakana-za" class="btn btn-row">
+            Katakana ZA (ザジズゼゾ)
+          </button>
+          <button id="katakana-da" class="btn btn-row">
+            Katakana DA (ダヂヅデド)
+          </button>
+          <button id="katakana-ba" class="btn btn-row">
+            Katakana BA (バビブベボ)
+          </button>
+          <button id="katakana-pa" class="btn btn-row">
+            Katakana PA (パピプペポ)
+          </button>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <textarea
+          id="question"
+          rows="3"
+          placeholder="Tulis satu atau lebih soal, pisahkan dengan koma..."
+        ></textarea>
+        <textarea
+          id="answer"
+          rows="3"
+          placeholder="Tulis satu atau lebih jawaban, pisahkan dengan koma..."
+        ></textarea>
+        <button id="addCard" class="btn btn-add">Tambah Kartu</button>
+      </div>
+      <div class="action-buttons">
+        <button id="randomize" class="btn btn-random">
+          Acak Posisi Kartu 🔀
+        </button>
+        <button id="closeAllCards" class="btn btn-close">
+          Tutup Semua Kartu ↩️
+        </button>
+        <button id="deleteAllCards" class="btn btn-delete">
+          Hapus Semua Kartu 🗑️
+        </button>
+      </div>
+      <div id="flashcardContainer" class="flashcard-container"></div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
